@@ -1,0 +1,152 @@
+/* Color Theme Swatches in Hex */
+.pallet{color:white;
+    color: #7591b3;
+    color: #435c7a;
+    color:   #26374b;
+    color: #D9BEA7;
+    color: #8C6954;
+    color: #734A3C;
+    color: #261713; 
+
+}
+
+
+body{
+    background-color:  #354e6b;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.contacts {
+    width:15em;
+}
+
+.contacts .avatar img {
+    height: 3em;
+    
+
+}
+.contacts .item {
+    border:1px solid #26374b;
+    padding: .25em .5em;
+
+}
+
+.contacts .avatar,
+.contacts .name,
+.contacts .actions {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.contacts .actions {
+    float: right;
+    padding-top: 1em;
+}
+.contacts .actions a {
+    color:   #8C6954;
+}
+.contacts .item {
+    text-align: right;
+    overflow: hidden;
+}
+
+
+.contacts .main,
+.contacts .actions-details {
+    border: 0.1px solid transparent ;
+    
+    
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    
+
+}
+.contacts .actions-details {
+    margin-right:-102%;
+    
+
+}
+.contacts .actions-details a,
+.contacts .actions-details label {
+    padding:.5em  1em;
+    display: inline-block;
+    color: #7591b3;
+    cursor: pointer;
+}
+.contacts .item>div {
+    transition: 1s;
+}
+.contacts .item:target>div {
+    transform: translateX(-104%);
+
+}
+
+
+
+.contacts .actions-details input[type="checkbox"] {
+    display: none;
+}
+
+.contacts .actions-details form {
+    
+    display: none;
+
+}
+.contacts .actions-details input[type="checkbox"]:checked+ form {
+    display: block;
+}
+
+
+
+
+
+
+.contacts .actions-details input[type="checkbox"] {
+    display: none;
+}
+
+.contacts .actions-details form {
+    
+    display: none;
+
+}
+.contacts .actions-details input[type="checkbox"]:checked+ form {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+ textarea{
+    background-color: #7591b3;
+    border-radius: 15px;
+}
+button {
+    background-color:#435c7a;
+    color: white;
+    border-radius: 20px;
+
+    
+    
+
+}
+button:hover{
+    background-color:#26374b ;
+
+
+}
+
+
+
+
+
